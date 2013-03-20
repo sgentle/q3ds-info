@@ -72,7 +72,7 @@ class Q3DS extends EventEmitter
       sv_maxclients: "maxPlayers"
       hostname: "serverName"
     }
-      console.log "old", old, "new", _new
+      #console.log "old", old, "new", _new
       decoded[_new] = decoded[old]
       delete decoded[old]    
 

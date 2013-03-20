@@ -122,7 +122,6 @@
       };
       for (old in _ref) {
         _new = _ref[old];
-        console.log("old", old, "new", _new);
         decoded[_new] = decoded[old];
         delete decoded[old];
       }
